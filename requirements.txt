@@ -1,0 +1,16 @@
+pdf2image
+ray[data,serve]
+sentence_transformers
+huggingface_hub
+transformers
+auto-gptq
+pinecone-client
+langchain
+mypy-extensions
+openai
+openapi-schema-pydantic
+sentence-transformers
+torch
+typing-inspect
+bitsandbytes
+fastapi
