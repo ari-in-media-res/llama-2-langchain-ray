@@ -46,7 +46,7 @@ The first step is to load our data sources and create our data ingestion pipelin
 
 Langchain provides the abstraction for reading and loading the data, while [Ray Datasets](https://docs.ray.io/en/master/data/data.html) is used to scale out the processing/embedding across multiple GPUs.
 
-Follow in the instructions in `create_pinecone_ray.py` to create embeddings at scale using Ray and load the data into Pinecone.
+Follow in the instructions in `create_pinecone_ray.ipynb` to create embeddings at scale using Ray and load the data into Pinecone.
 
 ### Step 2: Launch a Ray serve job to build the RAG workflow using Langchain
 
