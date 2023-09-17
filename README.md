@@ -38,8 +38,8 @@ You must install the modules provided in the requirements.txt file
 
 Follow the Ray or Anyscale documentation to start a cluster using AWS EC2 Instances. In the current example, we use a cluster with one GPU but this can be run on CPU as well.
 
-### Step 0: Set input variables
-In order to use Pinecone & Llama-2 from HuggingFace, you will need to do the following configurations in `demoConfig.py` file
+### Step 0: [IMPORTANT] Set input variables
+In order to use Pinecone & Llama-2 from HuggingFace, you will need to add the configurations in `demoConfig.py` file
 
 ### Step 1: Scalable Data Indexing
 The first step is to load our data sources and create our data ingestion pipeline. This involves parsing the source data and embedding the data using GPUs. The embeddings are then persisted in Pinecone, a vector store.
