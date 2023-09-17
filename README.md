@@ -1,4 +1,4 @@
-# Llama-2-Langchain-Ray-Pinecone
+# Llama-2-Langchain-Ray
 
 
 <img src="img/llama-logo.png" alt="drawing" width="150"/><img src="img/langchain-logo.png" alt="drawing" width="300"/><img src="img/logo-ray.png" alt="drawing" width="200"/><img src="img/pinecone-logo.png" alt="drawing" width="100"/>
