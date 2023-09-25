@@ -62,6 +62,6 @@ Run through the `query.ipynb` to perform the following:
 - Embedd the query
 - Retrieve the relevant context
 - Build the prompt
-- Get the answer from llama2 hosted on Anyscale Endpoint
+- Get the answer from llama2 hosted using Ray serve on Amazon EC2
 
 
