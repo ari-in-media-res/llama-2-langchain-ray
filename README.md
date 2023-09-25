@@ -30,7 +30,7 @@ In particular, we create a pipeline to load the data and we retrieve the most re
 ## Pre-requisites
 
 You must install the modules provided in the requirements.txt file
-- You must have [Ray cluster running on AWS](https://github.com/ari-in-media-res/llama-2-langchain-ray/tree/main). To get start, please review the documentation at this [link](https://docs.ray.io/en/latest/cluster/vms/user-guides/launching-clusters/aws.html).
+- You must have [Ray cluster running on AWS](https://github.com/ari-in-media-res/llama-2-langchain-ray/tree/main). To get started, please review the documentation at this [link](https://docs.ray.io/en/latest/cluster/vms/user-guides/launching-clusters/aws.html).
 - Download python dependencies via the Terminal by running
 `pip install --user -r requirements`
 
