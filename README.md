@@ -7,7 +7,7 @@
 ## Build a scalable enterprise-grade Q&A with Llama-2 on AWS using Pinecone and Ray
 An example on how to use Anyscale and Pinecone on AWS to build an LLM application using Retrieval Augmented Generation (RAG).
 
-[Llama-2](https://ai.meta.com/llama/) Llama 2 are a collection of pretrained and fine-tuned large language models (LLMs) ranging in scale from 7 billion to 70 billion parameters. Our fine-tuned LLMs, called Llama 2-Chat, are optimized for dialogue use cases.
+[Llama-2](https://ai.meta.com/llama/) Llama 2 are a collection of pretrained and fine-tuned large language models (LLMs) ranging in scale from 7 billion to 70 billion parameters. The fine-tuned LLMs, called Llama 2-Chat, are optimized for dialogue use cases.
 
 [Langchain](https://python.langchain.com/docs/get_started/introduction) LangChain is a framework for developing applications powered by language models. It enables applications that are:
 
@@ -30,6 +30,7 @@ In particular, we create a pipeline to load the data and we retrieve the most re
 ## Pre-requisites
 
 You must install the modules provided in the requirements.txt file
+- You must have Ray running on AWS. To get start, please review the documentation at this [link](https://docs.ray.io/en/latest/cluster/vms/user-guides/launching-clusters/aws.html).
 - Download python dependencies via the Terminal by running
 `pip install --user -r requirements`
 
